@@ -12,8 +12,12 @@ console.log("The sum is: " + sum2);
 let age = 20;
 if (age > 18) {
     console.log("You are an adult."+age);
-} else if (age == 18) {
+} else if (age === 18) {
     console.log("You are just an adult."+age);
 } else {
     console.log("You are a minor."+age);
+}
+for (let i = 1; i <= 10; i++) {
+    if (i === 5)  continue;
+    console.log("Number: " + i);
 }
