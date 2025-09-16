@@ -8,3 +8,12 @@ function  addition(a, b) {
 }
 let sum2 = addition(3, 7);
 console.log("The sum is: " + sum2);
+
+let age = 20;
+if (age > 18) {
+    console.log("You are an adult."+age);
+} else if (age == 18) {
+    console.log("You are just an adult."+age);
+} else {
+    console.log("You are a minor."+age);
+}
