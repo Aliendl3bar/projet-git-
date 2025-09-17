@@ -26,7 +26,10 @@ for (let i = 1; i <= 10; i++) {
 let C = ["C1", "C3", "C3", "C4", "C5", "C1", "C3", "C2", "C7", "C1"];
 let i = 0;
 console.log(C);
-if (C.includes("C1")) {
-    i++;
-};
+for (n = 0; n < C.length; n++) {
+    if (C[n] === "C1") {
+        i++;
+
+    };
+}
 console.log("C1 appears " + i + " times in the array.");
