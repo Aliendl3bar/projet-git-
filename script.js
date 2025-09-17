@@ -21,3 +21,11 @@ for (let i = 1; i <= 10; i++) {
     if (i === 5)  continue;
     console.log("Number: " + i);
 }
+
+
+let C = ["C1", "C3", "C3", "C4", "C5", "C1", "C3", "C2", "C7", "C1"];
+let i = 0;
+if (C.includes("C1")) {
+    i++;
+};
+console.log("C1 appears " + i + " times in the array.");
