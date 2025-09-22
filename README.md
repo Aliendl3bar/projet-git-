@@ -1,1 +1,1 @@
-# My Git project
+les exercice de JavaScript premier pas 
